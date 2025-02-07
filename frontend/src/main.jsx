@@ -8,7 +8,7 @@ import {
   Route,
   RouterProvider,
 } from "react-router-dom";
-import AuthLayout from "./authLayout.jsx";
+import AuthLayout from "./AuthLayout.jsx";
 
 const HomePage = lazy(() => import("./pages/HomePage.jsx"));
 const LoginPage = lazy(() => import("./pages/LoginPage.jsx"));
